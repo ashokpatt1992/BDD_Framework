@@ -63,7 +63,7 @@ public class Login_Check {
 	public void click_login_button_ensure_page_mooved_to_dashboard() {
 		   System.out.println("Final");
 		   
-		 //Verify Url
+		 //Verify the URL and proceed
 			String Assurl ="https://www.saucedemo.com/inventory.html";
 			String URL=driver.getCurrentUrl();
 			Assurl.equalsIgnoreCase(URL);
