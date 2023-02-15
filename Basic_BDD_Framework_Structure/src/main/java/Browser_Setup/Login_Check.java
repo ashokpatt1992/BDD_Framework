@@ -27,6 +27,8 @@ public class Login_Check {
 	public static File Conf;
 	public static ExtentTest Test;
    
+	
+	
 	@Given("Move to saucedemo login page")
 	public void move_to_saucedemo_login_page() {
 		
