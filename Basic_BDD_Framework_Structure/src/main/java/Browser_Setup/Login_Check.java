@@ -21,8 +21,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Login_Check {
 	
-	
-	
   public WebDriver driver;
   public static ExtentReports extent;
 	public static ExtentHtmlReporter htmlReporter;
@@ -55,7 +53,6 @@ public class Login_Check {
 		driver.findElement(By.id("user-name")).sendKeys(Username);
 		driver.findElement(By.id("password")).sendKeys(Password);
 		driver.findElement(By.id("login-button")).click();
-		
 		
 		
 	}
