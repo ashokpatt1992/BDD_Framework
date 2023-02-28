@@ -14,7 +14,7 @@ public class Itest_Listener implements ITestListener {
 
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
-		System.out.println("onTestSuccess");
+		System.out.println("onTestSuccess"); 
 	}
 
 	public void onTestFailure(ITestResult result) {
